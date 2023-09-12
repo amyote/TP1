@@ -12,8 +12,8 @@ nombreVictoire = 0
 nombreVictoireSuite = 0
 nombreDefaite = 0
 
-forceMin = 1
-forceMax = 9
+forceMinDe = 1
+forceMaxDe = 5
 forceBoss = 10
 
 
@@ -35,7 +35,7 @@ while continuer:
         forceAdversaire = forceBoss
     else:
         # On a une distribution differente entre chiffre au hasard entre 1 et 12 et somme de deux chiffres au hasard entre 1 et 6
-        forceAdversaire = random.randint(forceMin, forceMax) + random.randint(forceMin, forceMax)
+        forceAdversaire = random.randint(forceMinDe, forceMaxDe) + random.randint(forceMinDe, forceMaxDe)
 
     print(f"Vous tombez face a face avec un adversaire de difficulte: {forceAdversaire}.")
     entree = input("Que voulez-vous faire?\n\
