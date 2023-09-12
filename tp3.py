@@ -52,11 +52,11 @@ while continuer:
 
         numeroCombat += 1
 
-        resultatDe = random.randint(1, 6) + random.randint(1, 6)
-        victoireCombat = resultatDe > forceAdversaire
+        resultatDes = random.randint(1, 6) + random.randint(1, 6)
+        victoireCombat = resultatDes > forceAdversaire
 
         print(f"COMBAT:\n\
-Lancer du de: {resultatDe}\n\
+Lancer des: {resultatDes}\n\
 Dernier combat: {'victoire' if victoireCombat else 'defaite'}")
 
         if victoireCombat:
