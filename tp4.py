@@ -51,13 +51,13 @@ class MyGame(arcade.Window):
             self.balle.on_draw()
         for rectangle in self.rectangles:
             self.rectangle.on_draw()
-    
+    '''
     def on_update(self):
         for balle in self.balles:
             self.balle.on_update()
         for rectangle in self.rectangles:
             self.rectangle.on_update()
-    
+    '''
     def on_mouse_press(self, x, y, button, modifiers):
         print(button)
     
